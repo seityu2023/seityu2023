@@ -6,6 +6,12 @@ $breakpoints: ( 'ssm': 'screen and (max-device-width: 380px)', 'sm': 'screen and
 }
 
 
+// colors
+$main_color: #060219;
+$shadow_color: rgba(0, 255, 94, 0.45);
+$accent_color: rgba(26, 255, 0, 0.3);
+$accent_color2: rgba(26, 255, 0, 0.1);
+
 /* fonts */
 
 @font-face {
@@ -44,7 +50,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #070219;
+    background-color: $main_color;
 }
 
 p,
@@ -56,7 +62,7 @@ h2 {
 
 .top_view {
     width: 100%;
-    height: 199%;
+    height: 100%;
     text-align: center;
     .img_box {
         width: 100%;
@@ -92,9 +98,9 @@ h2 {
     display: none;
     width: 50px;
     height: 50px;
-    background: #1C1924;
-    -webkit-box-shadow: 1px 1px 14px -1px rgba(0, 209, 255, 55%);
-    box-shadow: 1px 1px 14px -1px rgba(0, 209, 255, 55%);
+    background: $main_color;
+    -webkit-box-shadow: 1px 1px 14px -1px $shadow_color;
+    box-shadow: 1px 1px 14px -1px $shadow_color;
     border-radius: 8px;
     position: fixed;
     top: 100px;
@@ -136,6 +142,8 @@ h2 {
 
 .vertical-slider {
     width: 100%;
+    margin: auto;
+    max-width: 600px;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
 }
@@ -146,92 +154,11 @@ h2 {
 .vertical-slider__slide {
     height: 100%;
     width: 100%;
-    background-color: #070219;
+    background-color: $main_color;
     color: white;
     // display: flex;
     // justify-content: center;
     // align-items: center;
-    .second_info {
-        .second_title {
-            font-weight: 600;
-            font-size: 3rem;
-            font-weight: 600;
-            margin: 0 0 3px;
-            color: rgba(255, 255, 255, 0.639);
-        }
-        .second_disc {
-            font-weight: 600;
-            font-size: 13px;
-            font-weight: 600;
-            margin: 0 40px 3px 0;
-            color: rgba(255, 255, 255, 0.5);
-        }
-        .number_text {
-            font-size: 7rem;
-            margin: 40px 0 0px;
-            line-height: 1;
-            letter-spacing: .06em;
-            color: rgba(0, 209, 255, 0.45);
-            font-family: 'postnobillscolomboExtrabold';
-        }
-    }
-    .second_list {
-        margin-bottom: 20px;
-        padding: 20px 20px 20px;
-        height: calc(100% - 60px);
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: start;
-        .second_item {
-            width: 100%;
-            margin: 14px 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .profile_div {
-                margin: 5px auto 5px;
-                width: 20vw;
-                height: 20vw;
-                @include mq(ssm) {
-                    width: 14vw;
-                    height: 14vw;
-                }
-                background-color: white;
-                padding: 3px;
-                box-shadow: 3px 3px 40px 2px rgba(0,
-                209,
-                255,
-                0.45);
-                .profile_img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-            }
-            .text_div {
-                margin-left: 1.8rem;
-                // width: 60vw;
-                .genre_text {
-                    font-size: 1.5rem;
-                    color: rgba(255, 255, 255, 0.3);
-                    margin: 0 0 3px;
-                }
-                .title_text {
-                    font-weight: 600;
-                    font-size: 1.8rem;
-                    margin: 0 0 3px;
-                }
-                .disc_text {
-                    font-weight: 600;
-                    font-size: 14px;
-                    margin: 0 0 3px;
-                    font-family: 'NotoSansJPThin';
-                    font-weight: 300;
-                }
-            }
-        }
-    }
     .inner {
         padding: 20px 40px;
         .number_text {
@@ -252,16 +179,15 @@ h2 {
             margin: 40px auto 40px;
             width: 45vw;
             height: 45vw;
+            max-width: 430px;
+            max-height: 430px;
             @include mq(ssm) {
                 width: 35vw;
                 height: 35vw;
             }
             background-color: white;
             padding: 5px;
-            box-shadow: 3px 3px 40px 6px rgba(0,
-            209,
-            255,
-            0.45);
+            box-shadow: 3px 3px 40px 6px $shadow_color;
             .profile_img {
                 width: 100%;
                 height: 100%;
@@ -289,7 +215,7 @@ h2 {
 
 .list_view {
     display: none;
-    background-color: #070219;
+    background-color: $main_color;
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -299,7 +225,7 @@ h2 {
     z-index: 1000;
     // pointer-events: none;
     // padding: 200px 0 300px;
-    .list_div {}
+    // .list_div {}
     .height_div {
         height: 200px;
     }
@@ -317,7 +243,7 @@ h2 {
     align-items: center;
     height: 120px;
     margin: 20px 20px;
-    background-color: #1C1924;
+    background-color: rgb(78 78 78 / 39%);
     border-radius: 7px;
     position: relative;
     .profile_div {
@@ -326,7 +252,7 @@ h2 {
         height: 70px;
         background-color: white;
         padding: 2px;
-        box-shadow: 3px 3px 13px 2px rgba(0, 209, 255, 0.45);
+        box-shadow: 0px -1px 13px 1px $shadow_color;
         .profile_img {
             width: 100%;
             height: 100%;
@@ -360,7 +286,7 @@ h2 {
         position: absolute;
         top: 20px;
         right: 10px;
-        color: rgba(110, 242, 254, 0.289);
+        color: $accent_color2;
         font-size: 5.0rem;
         margin: 0 0 0px;
         line-height: 1;
@@ -368,7 +294,7 @@ h2 {
         font-family: 'postnobillscolomboExtrabold';
     }
     .right_num.second_genre_text {
-        color: rgba(254, 110, 235, 0.289);
+        color: $accent_color2;
         font-size: 4.0rem;
     }
 }
@@ -383,7 +309,7 @@ h2 {
         width: 80%;
         font-size: 40px;
         margin: 10%;
-        background-color: #1C1924;
+        background-color: $main_color;
         outline: none;
         border: none;
         color: white;
@@ -399,7 +325,7 @@ h2 {
         width: 150px;
         height: 50px;
         font-size: 18px;
-        background-color: #1C1924;
+        background-color: $main_color;
         color: white;
         font-family: 'postnobillscolomboExtrabold';
         letter-spacing: .5em;
@@ -407,6 +333,6 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 3px 3px 13px 2px rgba(0, 209, 255, 0.45);
+        box-shadow: 3px 3px 13px 2px $shadow_color;
     }
 }
