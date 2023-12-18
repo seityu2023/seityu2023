@@ -343,7 +343,7 @@ const participates_data = [
     "orderStr": "25",
     "name": "(S)-IDLE",
     "imageURL": "img/profile/img25.jpg",
-    "disc": "こんにちは。(S)-IDLEです！私たちにとっては最後の聖昼祭です！コールや手拍子で私たちと一緒に最高に盛り上がってくれたら嬉しいです！",
+    "disc": "こんにちは。(S)-IDLEです！私たちにとっては最後の聖昼です！コールや手拍子で私たちと一緒に最高に盛り上がってくれたら嬉しいです！",
     "type": "volunteer",
     "genre": "ダンス",
     "time": "15:11"
