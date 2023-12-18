@@ -415,7 +415,7 @@ const participates_data = [
     "orderStr": "33",
     "name": "LEXEON",
     "imageURL": "img/profile/img33.jpg",
-    "disc": "中学時間のトリを担当します！28期26期合同グループ・LEXEONです！ガールクラッシュメドレーを踊ります！是非手拍子や声出しで盛り上げてください！",
+    "disc": "28期26期合同グループのLEXEONです！ガールクラッシュメドレーを踊ります！是非手拍子や声出しで盛り上げてください！",
     "type": "volunteer",
     "genre": "ダンス",
     "time": "15:39"
