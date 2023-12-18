@@ -145,7 +145,7 @@ const participates_data = [
     "orderStr": "3",
     "name": "うしか、もしか",
     "imageURL": "img/profile/img3.jpg",
-    "disc": "うしかもしかです。オリジナルTシャツの購入はこちらのHPからどうぞ。うしかもしかです。オリジナルTシャツの購入はこちらのHPからどうぞ。https://www.ushika_moshika.jp",
+    "disc": "うしか、もしかです。オフィシャルHPとオリジナルTシャツはQRコードからどうぞ",
     "type": "club",
     "genre": "バンド",
     "time": "13:20"
@@ -435,7 +435,7 @@ const participates_data = [
     "imageURL": "img/profile/img35.jpg",
     "disc": "物知りおばさんです！クリスマスってイエス・キリストの誕生日だと思われていますが、短くなっていた日照時間が長くなってきたことをお祝いする、という意味もあったらしいですよ。人形焼少年「う〜！勉強になるねぇ〜！」(RN:超咀嚼メンチカツ皇太子)",
     "type": "volunteer",
-    "genre": "コント",
+    "genre": "漫才",
     "time": "15:47"
   },
   {
