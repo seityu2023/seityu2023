@@ -395,74 +395,65 @@ const participates_data = [
   },
   {
     "orderStr": "31",
-    "name": "Chocola",
-    "imageURL": "img/profile/img31.jpg",
-    "disc": "27期5人でIVEのIAMを踊ります！過半数がダンス未経験の中頑張って練習したので、温かい目で見守ってください！",
-    "type": "volunteer",
-    "genre": "ダンス",
-    "time": "15:30"
-  },
-  {
-    "orderStr": "32",
     "name": "ジャグリング部",
     "imageURL": "img/profile/img32.jpg",
     "disc": "こんにちは！ジャグリング部です。かわいい後輩が増えてパワーアップしたジャグ部からのプレゼント！楽しんでもらえると嬉しいです、メリークリスマス！！",
     "type": "club",
     "genre": "ジャグリング",
-    "time": "15:34"
+    "time": "15:30"
   },
   {
-    "orderStr": "33",
+    "orderStr": "32",
     "name": "LEXEON",
     "imageURL": "img/profile/img33.jpg",
     "disc": "28期26期合同グループのLEXEONです！ガールクラッシュメドレーを踊ります！是非手拍子や声出しで盛り上げてください！",
     "type": "volunteer",
     "genre": "ダンス",
-    "time": "15:39"
+    "time": "15:35"
   },
   {
-    "orderStr": "34",
+    "orderStr": "33",
     "name": "有志ミュージカル",
     "imageURL": "img/profile/img34.jpg",
     "disc": "私達は飛龍祭にてミュージカルを行う団体です。発足時の中一も高校二年生、次は後輩が引き継ぐ番となりました。そんな私達の演し物は、This Is Me。各々が自身と向き合い、個性を以て一丸となる。本編の彼らの生き様は私達の目指す姿と重なります。",
     "type": "volunteer",
     "genre": "ミュージカル",
-    "time": "15:42"
+    "time": "15:39"
   },
   {
-    "orderStr": "35",
+    "orderStr": "34",
     "name": "ワラフカドニハフクキタル",
     "imageURL": "img/profile/img35.jpg",
     "disc": "物知りおばさんです！クリスマスってイエス・キリストの誕生日だと思われていますが、短くなっていた日照時間が長くなってきたことをお祝いする、という意味もあったらしいですよ。人形焼少年「う〜！勉強になるねぇ〜！」(RN:超咀嚼メンチカツ皇太子)",
     "type": "volunteer",
     "genre": "漫才",
-    "time": "15:47"
+    "time": "15:44"
   },
   {
-    "orderStr": "36",
+    "orderStr": "35",
     "name": "ジャンボリーミッキー踊り隊！",
     "imageURL": "img/profile/img36.jpg",
     "disc": "初心者4人で楽しくジャンボリーミッキー踊ります！是非一緒に踊ってください！",
     "type": "volunteer",
     "genre": "ダンス",
-    "time": "15:52"
+    "time": "15:49"
   },
   {
-    "orderStr": "37",
+    "orderStr": "36",
     "name": "4sGAS",
     "imageURL": "img/profile/img37.jpg",
     "disc": "緑の鞄に500万入れて白の紙で黄色の鞄言うて書きながら赤の鞄言いながら置いてくれたら俺黒の鞄言いながら取りに行くわ〜。4sGASです。クリスマスっぽいことします。",
     "type": "volunteer",
     "genre": "ビートボックス",
-    "time": "15:57"
+    "time": "15:54"
   },
   {
-    "orderStr": "38",
+    "orderStr": "37",
     "name": "バトン部",
     "imageURL": "img/profile/img38.jpg",
     "disc": "こんにちは、バトン部です！今年もクリスマスの時期がやってきました！計4曲、かっこよくて可愛いバトンとダンスを最後まで楽しんでいってください♡プレゼントが貰えるかも、、！？",
     "type": "club",
     "genre": "バトン",
-    "time": "15:59"
+    "time": "15:55"
   }
 ];
